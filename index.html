@@ -4,27 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rhino Securities Limited</title>
+    <!-- TailwindCss -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/2a49fbdbb8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-
-        <div>
-            <span></span>
-            <span>
-                <h1 class="name-header" style="margin: 0;">Rhino</h1>
-                <span>
-                    <p class="name-header-p" style="margin: 0;">SECURITIES LIMITED</p>
-                </span>
-            </span>
+    <nav class="px-10">
+        <div class="logo">
+               <img class="loogo" src="logo.png" alt="">
+               <h1 class="name-header" style="margin: 0;">Rh<span>in</span>o</h1>
+               <p class="name-header-p" style="margin: 0;">SECURITIES LIMITED</p>
         </div>
         <div class="nav-links">
             <ul class="link-list">
                 <li>
+                    <a href="#" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="">Our Services</a>
+                </li>
+                <li>
                     <a href="">Contact Us</a>
                 </li>
                 <li>
-                    <a href="">what we do</a>
+                    <a href="">About Us</a>
                 </li>
                 <li>
                     <a href="">Pricing</a>
@@ -32,12 +37,158 @@
             </ul>
         </div>
     </nav>
-    <header>
-        <div>
-            <h1>Welcome to Rhino Securities Limited</h1>
-            <h4>Your trusted partner in Security Solutions</h4>
-            <button>View Pricing</button>
+    <header class="p-10 flex flex-row">
+        <div class="basis-1/2 hero">
+            <h1>Rhino Securities Limited</h1>
+            <h4>We are experts in helping you find a solution to your problem. Our team includes male & female investigators possessing many years of experience. There are very few situations that we haven’t seen before, and more importantly, whatever your circumstances we are here to understand your situation.</h4>
+            <button class="mt-4 ml-10 button">
+               View Pricing
+               <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                 <path
+                   clip-rule="evenodd"
+                   d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                   fill-rule="evenodd"
+                 ></path>
+               </svg>
+             </button>
+             
         </div>
     </header>
+
+    <section class="p-10 testimonials">
+          <h1>What clients say</h1>
+          <div class="mt-5 testimony">
+               <swiper-container class="ml-auto mr-auto mySwiper" effect="cards" grab-cursor="true">
+                    <swiper-slide>
+                         <div class="imagg"><img src="avatar-anna-kim.webp" alt=""></div>
+                         <div class="rating">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                         </div>
+                         <div class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa commodi, praesentium totam esse maiores provident earum eum labore quidem doloribus.</div>
+                    </swiper-slide>
+                    <swiper-slide>
+                         <div class="imagg"><img src="avatar-angela-gray.webp" alt=""></div>
+                         <div class="rating">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                         </div>
+                         <div class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa commodi, praesentium totam esse maiores provident earum eum labore quidem doloribus.</div>
+                    </swiper-slide>
+                    <swiper-slide>
+                         <div class="imagg"><img src="avatar-mark-webber.webp" alt=""></div>
+                         <div class="rating">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                         </div>
+                         <div class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa commodi, praesentium totam esse maiores provident earum eum labore quidem doloribus.</div>
+                    </swiper-slide>
+                    <swiper-slide>
+                         <div class="imagg"><img src="avatar-jacob-thompson.webp" alt=""></div>
+                         <div class="rating">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                         </div>
+                         <div class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa commodi, praesentium totam esse maiores provident earum eum labore quidem doloribus.</div>
+                    </swiper-slide>
+                    <swiper-slide>
+                         <div class="imagg"><img src="avatar-kimberly-smith.webp" alt=""></div>
+                         <div class="rating">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                         </div>
+                         <div class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa commodi, praesentium totam esse maiores provident earum eum labore quidem doloribus.</div>
+                    </swiper-slide>
+                    <swiper-slide>
+                         <div class="imagg"><img src="avatar-nathan-peterson.webp" alt=""></div>
+                         <div class="rating">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                         </div>
+                         <div class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa commodi, praesentium totam esse maiores provident earum eum labore quidem doloribus.</div>
+                    </swiper-slide>
+                    <swiper-slide>
+                         <div class="imagg"><img src="avatar-rizky-hasanuddin.webp" alt=""></div>
+                         <div class="rating">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                         </div>
+                         <div class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa commodi, praesentium totam esse maiores provident earum eum labore quidem doloribus.</div>
+                    </swiper-slide>
+               </swiper-container>
+          </div>
+    </section>
+
+    <footer>
+          <div class="mx-auto pt-10 flex flex-row one">
+               <div class="loogoo"><img src="logo.png" alt="logo"></div>
+               <div class="linikss">
+                    <div>
+                         <a href="#">Home</a>
+                    </div>
+                    <div>
+                         <a href="">Our Services</a>
+                    </div>
+                    <div>
+                         <a href="">Contact Us</a>
+                    </div>
+                    <div>
+                         <a href="">About Us</a>
+                    </div>
+                    <div>
+                         <a href="">Pricing</a>
+                    </div>
+               </div>
+               <div class="coontacts">
+                    <div class="mail">
+                         <i class="fas fa-envelope"></i>
+                         <div>
+                              <h4>Chat with Us</h4>
+                              <h6>example@email.com</h6>
+                         </div>
+                    </div>
+                    <div class="mail">
+                         <i class="fas fa-phone-volume"></i>
+                         <div>
+                              <h4>Phone</h4>
+                              <h6>+1234567890</h6>
+                         </div>
+                    </div>
+                    <div class="mail">
+                         <i class="fa-solid fa-location-dot"></i>
+                         <div>
+                              <h4>Office</h4>
+                              <h6>Lorem ipsum dolor sit amet.</h6>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <hr>
+          <div class="coppyRight">All rights @ 2024</div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 </body>
 </html>
